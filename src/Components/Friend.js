@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function Friend({ friend, onSelection, selectedFriend }) {
   const isSelected = selectedFriend?.id === friend.id;
 
